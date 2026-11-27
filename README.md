@@ -58,7 +58,7 @@ Everything that runs in the browser and shapes what users see and touch.
 ### ✅ Technology Checklist
 
 **Core**
-- [ ] **HTML5**: page structure and semantic markup · [Docs](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/HTML5/docs.md) · [Cheat Sheet](./frontend/core/html/cheat-sheet.md) · [Notes](./frontend/core/html/notes.md)
+- [ ] **HTML5**: page structure and semantic markup · [Docs](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/HTML5/docs.md) · [Cheat Sheet](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/HTML5/cheat-sheet.md) · [Notes](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/HTML5/notes.md)
 - [ ] **CSS3**: styling, Flexbox, Grid, responsive design · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
 - [ ] **JavaScript (ES6+)**: logic, DOM manipulation, async code · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
 - [ ] **TypeScript**: typed JavaScript for safer, larger projects · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
