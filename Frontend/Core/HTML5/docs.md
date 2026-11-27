@@ -1,14 +1,40 @@
 # 📘 HTML5 Documentation
 
-[⬅ Back to HTML5](./README.md)
+<p align="center">
+  <a href="./README.md"><img src="https://img.shields.io/badge/Back%20to%20HTML5-6E7681?style=for-the-badge" alt="Back to HTML5" /></a>
+  <a href="./cheat-sheet.md"><img src="https://img.shields.io/badge/Cheat%20Sheet-F38020?style=for-the-badge" alt="Cheat Sheet" /></a>
+  <a href="./notes.md"><img src="https://img.shields.io/badge/Notes-3FB950?style=for-the-badge" alt="Notes" /></a>
+</p>
+
+> A complete guide to HTML5: what it is, how it works, best practices and a ready-to-use starter template.
+
+## 📑 Contents
+
+| # | Section | What's inside |
+|---|---|---|
+| 1 | [Executive Summary & Use Cases](#summary) | What HTML5 is and when to use it |
+| 2 | [Core Concepts & Architecture](#concepts) | How browsers use HTML, terminology, semantic tags |
+| 3 | [Standard Checklist & Best Practices](#checklist) | Features, setup steps, security and performance tips |
+| 4 | [Quick Start & Boilerplate Code](#quickstart) | A minimal, commented starter page |
+| 5 | [Official Documentation & Resources](#resources) | Verified docs and tutorials |
 
 ---
+
+<a id="summary"></a>
 
 ## 1. Executive Summary & Use Cases
 
 **HTML5** (HyperText Markup Language, version 5) is the standard language used to describe the structure and content of web pages. It tells the browser what each piece of content *is*: a heading, a paragraph, a link, an image, a form.
 
-**Primary purpose:** structure content so browsers, search engines and assistive technologies can understand it. HTML handles structure, CSS handles style, JavaScript handles behavior.
+**Primary purpose:** structure content so browsers, search engines and assistive technologies can understand it.
+
+| Language | Role |
+|---|---|
+| **HTML** | Structure and meaning |
+| **CSS** | Style and layout |
+| **JavaScript** | Behavior and interactivity |
+
+### When to use it
 
 | Use it when | Example |
 |---|---|
@@ -19,6 +45,8 @@
 | Writing email templates and documents | Newsletters, static docs |
 
 ---
+
+<a id="concepts"></a>
 
 ## 2. Core Concepts & Architecture
 
@@ -41,6 +69,15 @@
 | **Semantic element** | A tag whose name describes its meaning, e.g. `<header>`, `<nav>`, `<article>` |
 | **DOM** | The tree representation of the page that JavaScript can read and change |
 | **Doctype** | `<!DOCTYPE html>` tells the browser to use standards mode |
+
+### Anatomy of an Element
+
+```html
+<a href="https://example.com" target="_blank">Visit site</a>
+│   │                         │                │
+│   └── attribute: name="value"                └── content
+└── opening tag                                   closing tag: </a>
+```
 
 ### Basic Page Anatomy
 
@@ -70,7 +107,22 @@
 | `<footer>` | Footer of a page or section |
 | `<figure>` / `<figcaption>` | An image or diagram with a caption |
 
+### Common Attributes
+
+| Attribute | Used on | Purpose |
+|---|---|---|
+| `href` | `<a>`, `<link>` | Destination URL |
+| `src` | `<img>`, `<script>`, `<video>` | Source file |
+| `alt` | `<img>` | Text alternative for the image |
+| `id` | Any element | Unique identifier |
+| `class` | Any element | Group elements for CSS and JavaScript |
+| `type` | `<input>`, `<button>` | Kind of input or button |
+| `name` | Form controls | Key used when the form is submitted |
+| `required` | Form controls | Field must be filled before submitting |
+
 ---
+
+<a id="checklist"></a>
 
 ## 3. Standard Checklist & Best Practices
 
@@ -90,11 +142,11 @@
 
 ### 🛠️ Setup Steps
 
-- [ ] Install a code editor (VS Code)
-- [ ] Install the **Live Server** extension
-- [ ] Create a project folder with `index.html`
-- [ ] Add the boilerplate (see section 4)
-- [ ] Open with Live Server and check the result
+- [ ] Install a code editor such as [VS Code](https://code.visualstudio.com/)
+- [ ] Install the **Live Server** extension for instant browser refresh
+- [ ] Create a project folder with an `index.html` file
+- [ ] Add the boilerplate from section 4
+- [ ] Right-click the file and choose **Open with Live Server**
 
 ### 📋 Best Practices
 
@@ -118,8 +170,8 @@
 **Performance**
 - [ ] Add `width` and `height` on images to prevent layout shift
 - [ ] Use `loading="lazy"` for images below the fold
-- [ ] Load scripts with `defer` at the end of `<head>` or before `</body>`
-- [ ] Compress and use modern image formats
+- [ ] Load scripts with `defer` in the `<head>`, or place them just before `</body>`
+- [ ] Compress images and use modern formats
 
 **Security**
 - [ ] Add `rel="noopener noreferrer"` to links with `target="_blank"`
@@ -132,6 +184,8 @@
 - [ ] Use consistent indentation and lowercase tag names
 
 ---
+
+<a id="quickstart"></a>
 
 ## 4. Quick Start & Boilerplate Code
 
@@ -152,7 +206,7 @@ Save this as `index.html` and open it in a browser:
   <meta name="description" content="A short description of this page." />
 
   <!-- Title shown in the browser tab -->
-  <title>My First HTML5 Page</title>
+  <title>HTML5 Starter Page</title>
 
   <!-- Link your stylesheet and script here -->
   <!-- <link rel="stylesheet" href="style.css" /> -->
@@ -170,7 +224,7 @@ Save this as `index.html` and open it in a browser:
   <main>
     <section id="about">
       <h2>About</h2>
-      <p>This is my first page built with semantic HTML5.</p>
+      <p>This page is built with semantic HTML5.</p>
       <img src="photo.jpg" alt="Describe the image here" width="300" height="200" loading="lazy" />
     </section>
 
@@ -185,32 +239,38 @@ Save this as `index.html` and open it in a browser:
   </main>
 
   <footer>
-    <p>&copy; 2026 My Website</p>
+    <p>&copy; 2026 Example Website</p>
   </footer>
 </body>
 </html>
 ```
 
+**What this page demonstrates:** document structure, mobile-friendly viewport, SEO metadata, semantic layout, an accessible image, and a validated form with a label.
+
 ---
+
+<a id="resources"></a>
 
 ## 5. Official Documentation & Resources
 
 ### 📚 Official Documentation
 
-| Resource | Link |
-|---|---|
-| MDN Web Docs: HTML | [![Open](https://img.shields.io/badge/Open-Documentation-blue?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| HTML Living Standard (WHATWG spec) | [![Open](https://img.shields.io/badge/Open-Documentation-blue?style=for-the-badge)](https://html.spec.whatwg.org/) |
-| W3C Markup Validator | [![Open](https://img.shields.io/badge/Open-Validator-green?style=for-the-badge)](https://validator.w3.org/) |
+| Resource | Description | Link |
+|---|---|---|
+| MDN Web Docs: HTML | The most complete HTML reference | [![MDN](https://img.shields.io/badge/MDN-Docs-000000?style=for-the-badge&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| HTML Living Standard | The official specification | [![WHATWG](https://img.shields.io/badge/WHATWG-Spec-2F81F7?style=for-the-badge)](https://html.spec.whatwg.org/) |
+| W3C Markup Validator | Check your HTML for errors | [![W3C](https://img.shields.io/badge/W3C-Validator-3FB950?style=for-the-badge&logo=w3c&logoColor=white)](https://validator.w3.org/) |
 
 ### 🎓 Recommended Tutorials
 
-| Resource | Link |
-|---|---|
-| web.dev: Learn HTML | [![Open](https://img.shields.io/badge/Open-Tutorial-orange?style=for-the-badge)](https://web.dev/learn/html) |
-| MDN: Learn web development | [![Open](https://img.shields.io/badge/Open-Tutorial-orange?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Learn) |
+| Resource | Description | Link |
+|---|---|---|
+| web.dev: Learn HTML | Free structured HTML course | [![web.dev](https://img.shields.io/badge/web.dev-Learn%20HTML-F38020?style=for-the-badge)](https://web.dev/learn/html) |
+| MDN: Learn web development | Beginner-friendly learning path | [![MDN Learn](https://img.shields.io/badge/MDN-Learn-F38020?style=for-the-badge&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Learn) |
 
 ### 🔗 Related Pages
 
-- [⚡ HTML5 Cheat Sheet](./cheat-sheet.md)
-- [📝 HTML5 Notes](./notes.md)
+<p align="center">
+  <a href="./cheat-sheet.md"><img src="https://img.shields.io/badge/HTML5-Cheat%20Sheet-F38020?style=for-the-badge" alt="HTML5 Cheat Sheet" /></a>
+  <a href="./notes.md"><img src="https://img.shields.io/badge/HTML5-Notes-3FB950?style=for-the-badge" alt="HTML5 Notes" /></a>
+</p>
