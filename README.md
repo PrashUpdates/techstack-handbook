@@ -58,7 +58,7 @@ Everything that runs in the browser and shapes what users see and touch.
 ### ✅ Technology Checklist
 
 **Core**
-- [x] **HTML5**: page structure and semantic markup · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
+- [ ] **HTML5**: page structure and semantic markup · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
 - [ ] **CSS3**: styling, Flexbox, Grid, responsive design · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
 - [ ] **JavaScript (ES6+)**: logic, DOM manipulation, async code · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
 - [ ] **TypeScript**: typed JavaScript for safer, larger projects · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
