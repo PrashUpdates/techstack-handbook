@@ -1,7 +1,7 @@
 <h1 align="center">📚 Developer Handbook</h1>
 
 <p align="center">
-  <strong>My personal knowledge base and cheat sheet for modern web development.</strong>
+  <strong>Cheat sheet for modern web development.</strong>
 </p>
 
 <p align="center">
