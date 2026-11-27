@@ -194,4 +194,124 @@ Where data lives: storing, querying and caching it efficiently.
 | **Examples** | SQLite, MySQL, PostgreSQL | MongoDB, Redis |
 | **Best for** | Structured data, relationships | Flexible or fast-changing data, caching |
 
-### ⚖️ Quick Comparison: P
+### ⚖️ Quick Comparison: Popular Databases
+
+| | SQLite | MySQL | PostgreSQL | MongoDB | Redis |
+|---|---|---|---|---|---|
+| **Type** | SQL | SQL | SQL | NoSQL (document) | NoSQL (key-value) |
+| **Setup** | None, just a file | Needs a server | Needs a server | Needs a server | Needs a server |
+| **Best for** | Learning, small apps | General web apps | Complex queries | Flexible data | Caching |
+
+### 🔗 Essential Resources
+
+| Resource | Link |
+|---|---|
+| SQL Practice Platform | [Add link](#) |
+| SQLite Docs | [Add link](#) |
+| MongoDB University | [Add link](#) |
+| Database Design Guide | [Add link](#) |
+
+---
+
+<a id="devops"></a>
+
+## ☁️ DevOps & Cloud Services
+
+Version control, containers, deployment and the platforms that run your code.
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,kubernetes,linux,nginx,aws,gcp,azure,vercel,netlify,cloudflare&perline=13" />
+  </a>
+</p>
+
+### ✅ Technology Checklist
+
+**Version Control**
+- [ ] **Git**: tracking changes, branching, merging · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
+- [ ] **GitHub**: code hosting, pull requests, collaboration · [Docs](#) · [Notes](#)
+
+**Automation & Containers**
+- [ ] **GitHub Actions**: automated testing and deployment (CI/CD) · [Docs](#) · [Notes](#)
+- [ ] **Docker**: packaging apps into containers · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
+- [ ] **Kubernetes**: running and scaling containers · [Docs](#) · [Notes](#)
+
+**Servers**
+- [ ] **Linux & Terminal**: essential commands, permissions, shell basics · [Cheat Sheet](#) · [Notes](#)
+- [ ] **Nginx**: web server and reverse proxy · [Docs](#) · [Notes](#)
+
+**Hosting & Cloud**
+- [ ] **Cloudflare Pages**: frontend hosting · [Docs](#) · [Notes](#)
+- [ ] **Render**: backend and web service hosting · [Docs](#) · [Notes](#)
+- [ ] **Vercel / Netlify**: frontend hosting with easy deploys · [Docs](#) · [Notes](#)
+- [ ] **AWS**: broad cloud platform (compute, storage, databases) · [Docs](#) · [Notes](#)
+- [ ] **Google Cloud / Azure**: other major cloud platforms · [Docs](#) · [Notes](#)
+
+**Core Concepts**
+- [ ] **CI/CD**: automating build, test and deploy · [Guide](#) · [Notes](#)
+- [ ] **Environment Management**: dev, staging and production · [Guide](#) · [Notes](#)
+- [ ] **Domains, DNS & HTTPS**: how a site gets its address and security · [Guide](#) · [Notes](#)
+
+### ⚖️ Quick Comparison: Hosting Platforms
+
+| | Cloudflare Pages | Vercel | Netlify | Render | AWS |
+|---|---|---|---|---|---|
+| **Good for** | Static frontends | Frontends, Next.js | Static frontends | Backends, full apps | Everything, at scale |
+| **Backend support** | Limited | Serverless functions | Serverless functions | Yes | Yes |
+| **Difficulty** | Easy | Easy | Easy | Easy | Hard |
+
+### ⚖️ Quick Comparison: Git vs GitHub
+
+| | Git | GitHub |
+|---|---|---|
+| **What it is** | Version control tool | Online platform to host Git repositories |
+| **Works** | On your computer | On the web |
+| **Used for** | Tracking changes | Sharing, collaborating, pull requests |
+
+### 🔗 Essential Resources
+
+| Resource | Link |
+|---|---|
+| Git Cheat Sheet | [Add link](#) |
+| Docker Getting Started | [Add link](#) |
+| GitHub Actions Docs | [Add link](#) |
+| Cloud Provider Docs | [Add link](#) |
+
+---
+
+<a id="roadmap"></a>
+
+## 🗺️ Roadmap
+
+- [ ] Add inner pages for every technology in the checklists
+- [ ] Add cheat sheets for HTML, CSS, JavaScript, Git and SQL
+- [ ] Add small project examples for each section
+- [ ] Add a "Common Errors & Fixes" page
+- [ ] Add a "Tools & Extensions" page
+
+---
+
+<a id="contributing"></a>
+
+## 🤝 Contributing
+
+Found a mistake or a great resource? Open an issue or send a pull request.
+
+1. Fork the repository
+2. Create a branch: `git checkout -b add-resource`
+3. Commit your changes: `git commit -m "Add resource"`
+4. Push and open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**Prashant** · [@PrashUpdates](https://github.com/PrashUpdates)
+
+---
+
+<p align="center">
+  <strong>📚 Developer Handbook</strong>
+  <br/>
+  Learn a little every day. ⭐ Star the repo if it helps you.
+</p>
