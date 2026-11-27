@@ -199,16 +199,16 @@ Save this as `index.html` and open it in a browser:
 
 | Resource | Link |
 |---|---|
-| MDN Web Docs: HTML | [developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) |
-| HTML Living Standard (WHATWG spec) | [html.spec.whatwg.org](https://html.spec.whatwg.org/) |
-| W3C Markup Validator | [validator.w3.org](https://validator.w3.org/) |
+| MDN Web Docs: HTML | [![Open](https://img.shields.io/badge/Open-Documentation-blue?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| HTML Living Standard (WHATWG spec) | [![Open](https://img.shields.io/badge/Open-Documentation-blue?style=for-the-badge)](https://html.spec.whatwg.org/) |
+| W3C Markup Validator | [![Open](https://img.shields.io/badge/Open-Validator-green?style=for-the-badge)](https://validator.w3.org/) |
 
 ### 🎓 Recommended Tutorials
 
 | Resource | Link |
 |---|---|
-| web.dev: Learn HTML | [web.dev/learn/html](https://web.dev/learn/html) |
-| MDN: Learn web development | [developer.mozilla.org/en-US/docs/Learn](https://developer.mozilla.org/en-US/docs/Learn) |
+| web.dev: Learn HTML | [![Open](https://img.shields.io/badge/Open-Tutorial-orange?style=for-the-badge)](https://web.dev/learn/html) |
+| MDN: Learn web development | [![Open](https://img.shields.io/badge/Open-Tutorial-orange?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Learn) |
 
 ### 🔗 Related Pages
 
