@@ -1,9 +1,9 @@
 # 📝 HTML5 Notes
 
 <p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/Back%20to%20HTML5-6E7681?style=flat-square" alt="Back to HTML5" /></a>
-  <a href="./docs.md"><img src="https://img.shields.io/badge/Docs-2F81F7?style=flat-square" alt="Docs" /></a>
-  <a href="./cheat-sheet.md"><img src="https://img.shields.io/badge/Cheat%20Sheet-F38020?style=flat-square" alt="Cheat Sheet" /></a>
+  <a href="./README.md"><img src="https://img.shields.io/badge/Back%20to%20HTML5-6E7681?style=for-the-badge" alt="Back to HTML5" /></a>
+  <a href="./docs.md"><img src="https://img.shields.io/badge/Docs-2F81F7?style=for-the-badge" alt="Docs" /></a>
+  <a href="./cheat-sheet.md"><img src="https://img.shields.io/badge/Cheat%20Sheet-F38020?style=for-the-badge" alt="Cheat Sheet" /></a>
 </p>
 
 > Short study notes, common mistakes and practice exercises to use alongside the docs.
