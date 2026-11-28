@@ -34,12 +34,12 @@ I update it a little every day, so it keeps growing as I do.
 
 | # | Section | What's inside |
 |---|---|---|
-| 1 | [🎨 Frontend](#frontend) | HTML, CSS, JavaScript, frameworks, tooling |
-| 2 | [⚙️ Backend](#backend) | Languages, frameworks, APIs, authentication |
-| 3 | [🗄️ Databases](#databases) | SQL, NoSQL, caching, ORMs |
-| 4 | [☁️ DevOps & Cloud Services](#devops) | Git, Docker, CI/CD, hosting, cloud |
-| 5 | [🗺️ Roadmap](#roadmap) | What's coming next |
-| 6 | [🤝 Contributing](#contributing) | How to suggest changes |
+| 1 | [![Frontend](https://img.shields.io/badge/Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#frontend) | HTML, CSS, JavaScript, frameworks, tooling |
+| 2 | [![Backend](https://img.shields.io/badge/Backend-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#backend) | Languages, frameworks, APIs, authentication |
+| 3 | [![Databases](https://img.shields.io/badge/Databases-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](#databases) | SQL, NoSQL, caching, ORMs |
+| 4 | [![DevOps & Cloud](https://img.shields.io/badge/DevOps%20%26%20Cloud-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#devops) | Git, Docker, CI/CD, hosting, cloud |
+| 5 | [![Roadmap](https://img.shields.io/badge/Roadmap-6E7681?style=for-the-badge)](#roadmap) | What's coming next |
+| 6 | [![Contributing](https://img.shields.io/badge/Contributing-3FB950?style=for-the-badge)](#contributing) | How to suggest changes |
 
 ---
 
