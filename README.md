@@ -91,8 +91,8 @@ Everything that runs in the browser and shapes what users see and touch.
 
 | Resource | Link |
 |---|---|
-| MDN Web Docs | [Add link](#) |
-| Official React Docs | [Add link](#) |
+| MDN Web Docs | [link](https://developer.mozilla.org/en-US/) |
+| Official React Docs | [link](https://react.dev/learn) |
 | CSS Reference / Tricks | [Add link](#) |
 | Practice Projects | [Add link](#) |
 
