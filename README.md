@@ -1,7 +1,7 @@
 <h1 align="center">📚 Developer Handbook</h1>
 
 <p align="center">
-  <strong>Cheat sheet for modern web development.</strong>
+  <strong>A practical, beginner-friendly handbook and cheat sheet for modern web development.</strong>
 </p>
 
 <p align="center">
@@ -22,11 +22,9 @@
 
 ## 📖 About
 
-**Developer Handbook** is a living, personal documentation of everything I learn as a developer. It is organized into four areas, and each area has a technology checklist, quick comparisons and a place for the best resources I find.
+**Developer Handbook** is an open guide to modern web development, covering Frontend, Backend, Databases, and DevOps & Cloud. Each technology has its own documentation, cheat sheet and notes.
 
-I update it a little every day, so it keeps growing as I do.
-
-> **Legend:** `[ ]` not started · `[x]` learned and documented
+> **Legend:** `[ ]` not started · `[x]` documented
 
 ---
 
@@ -283,11 +281,13 @@ Version control, containers, deployment and the platforms that run your code.
 
 ## 🗺️ Roadmap
 
-- [ ] Add inner pages for every technology in the checklists
-- [ ] Add cheat sheets for HTML, CSS, JavaScript, Git and SQL
-- [ ] Add small project examples for each section
-- [ ] Add a "Common Errors & Fixes" page
-- [ ] Add a "Tools & Extensions" page
+- [x] HTML5
+- [x] CSS3
+- [ ] JavaScript and TypeScript
+- [ ] React, Vue and Next.js
+- [ ] Backend
+- [ ] Databases
+- [ ] DevOps and Cloud
 
 ---
 
@@ -295,7 +295,7 @@ Version control, containers, deployment and the platforms that run your code.
 
 ## 🤝 Contributing
 
-Found a mistake or a great resource? Open an issue or send a pull request.
+Found a mistake, a broken link or a missing topic? Open an issue or send a pull request.
 
 1. Fork the repository
 2. Create a branch: `git checkout -b add-resource`
