@@ -91,10 +91,10 @@ Everything that runs in the browser and shapes what users see and touch.
 
 | Resource | Link |
 |---|---|
-| MDN Web Docs | [link](https://developer.mozilla.org/en-US/) |
-| Official React Docs | [link](https://react.dev/learn) |
-| CSS Reference / Tricks | [Add link](#) |
-| Practice Projects | [Add link](#) |
+| MDN Web Docs | [click here](https://developer.mozilla.org/en-US/) |
+| Official React Docs | [click here](https://react.dev/learn) |
+| CSS Reference / Tricks | [click here]() |
+| Practice Projects | [click here](#) |
 
 ---
 
