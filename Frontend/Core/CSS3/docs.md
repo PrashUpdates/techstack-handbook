@@ -576,4 +576,156 @@ body {
 .site-header {
   display: flex;
   justify-content: space-between; /* logo left, nav right */
-  align-items: center;            /* vertical centeri
+  align-items: center;            /* vertical centering */
+  padding: var(--space) 2rem;
+  background: var(--color-surface);
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus-visible {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* ==========================================================
+   5. HERO SECTION
+   ========================================================== */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  /* fluid size: min 2rem, grows with the screen, max 3.5rem */
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin: 0 0 0.5rem;
+}
+
+/* ==========================================================
+   6. BUTTON WITH TRANSITION
+   ========================================================== */
+.btn {
+  display: inline-block;
+  margin-top: var(--space);
+  padding: 0.75rem 1.5rem;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgb(0 0 0 / 20%);
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* ==========================================================
+   7. LAYOUT WITH GRID: responsive card gallery
+   ========================================================== */
+.cards {
+  display: grid;
+  /* as many 240px+ columns as fit, each sharing the space equally */
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin-inline: auto; /* centers the grid */
+  padding: 2rem 1rem;
+}
+
+.card {
+  background: var(--color-surface);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* ==========================================================
+   8. FOOTER
+   ========================================================== */
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--color-surface);
+}
+
+/* ==========================================================
+   9. RESPONSIVE: small screens
+   ========================================================== */
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* ==========================================================
+   10. ACCESSIBILITY: respect reduced-motion preference
+   ========================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+```
+
+**What this starter demonstrates:** reset and `box-sizing`, CSS variables, automatic dark mode, a Flexbox header, a Grid card gallery, fluid typography with `clamp()`, a hover transition, visible keyboard focus, responsive media queries and reduced-motion support.
+
+---
+
+<a id="resources"></a>
+
+## 5. Official Documentation & Resources
+
+### 📚 Official Documentation
+
+| Resource | Description | Link |
+|---|---|---|
+| MDN Web Docs: CSS | The most complete CSS reference and guides | [![MDN](https://img.shields.io/badge/MDN-CSS%20Docs-000000?style=for-the-badge&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) |
+| W3C CSS Specifications | The official standards and modules | [![W3C](https://img.shields.io/badge/W3C-CSS%20Specs-2F81F7?style=for-the-badge&logo=w3c&logoColor=white)](https://www.w3.org/Style/CSS/) |
+| W3C CSS Validator | Check your CSS for errors | [![Validator](https://img.shields.io/badge/W3C-CSS%20Validator-3FB950?style=for-the-badge&logo=w3c&logoColor=white)](https://jigsaw.w3.org/css-validator/) |
+| Can I use | Browser support tables for CSS features | [![Can I use](https://img.shields.io/badge/Can%20I%20use-Browser%20Support-F38020?style=for-the-badge)](https://caniuse.com/) |
+
+### 🎓 Recommended Tutorials
+
+| Resource | Description | Link |
+|---|---|---|
+| web.dev: Learn CSS | Free structured CSS course | [![web.dev](https://img.shields.io/badge/web.dev-Learn%20CSS-F38020?style=for-the-badge)](https://web.dev/learn/css) |
+| MDN: Learn CSS | Beginner-friendly learning path | [![MDN Learn](https://img.shields.io/badge/MDN-Learn%20CSS-F38020?style=for-the-badge&logo=mdnwebdocs&logoColor=white)](https://developer.mozilla.org/en-US/docs/Learn/CSS) |
+| CSS-Tricks: Flexbox Guide | Visual guide to every Flexbox property | [![Flexbox](https://img.shields.io/badge/CSS--Tricks-Flexbox%20Guide-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) |
+| CSS-Tricks: Grid Guide | Visual guide to every Grid property | [![Grid](https://img.shields.io/badge/CSS--Tricks-Grid%20Guide-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://css-tricks.com/snippets/css/complete-guide-grid/) |
+
+### 🎮 Practice Games
+
+| Resource | Description | Link |
+|---|---|---|
+| Flexbox Froggy | Learn Flexbox by guiding a frog | [![Flexbox Froggy](https://img.shields.io/badge/Play-Flexbox%20Froggy-3FB950?style=for-the-badge)](https://flexboxfroggy.com/) |
+| CSS Grid Garden | Learn Grid by growing a garden | [![Grid Garden](https://img.shields.io/badge/Play-Grid%20Garden-3FB950?style=for-the-badge)](https://cssgridgarden.com/) |
+
+### 🔗 Related Pages
+
+<p align="center">
+  <a href="./cheat-sheet.md"><img src="https://img.shields.io/badge/CSS3-Cheat%20Sheet-F38020?style=for-the-badge" alt="CSS3 Cheat Sheet" /></a>
+  <a href="./notes.md"><img src="https://img.shields.io/badge/CSS3-Notes-3FB950?style=for-the-badge" alt="CSS3 Notes" /></a>
+</p>
