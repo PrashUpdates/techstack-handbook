@@ -57,8 +57,8 @@ Everything that runs in the browser and shapes what users see and touch.
 **Core**
 - [ ] **HTML5**: page structure and semantic markup · [Docs](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/HTML5/docs.md) · [Cheat Sheet](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/HTML5/cheat-sheet.md) · [Notes](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/HTML5/notes.md)
 - [ ] **CSS3**: styling, Flexbox, Grid, responsive design · [Docs](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/CSS3/docs.md) · [Cheat Sheet](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/CSS3/cheat-sheet.md) · [Notes](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/CSS3/notes.md)
-- [ ] **JavaScript (ES6+)**: logic, DOM manipulation, async code · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
-- [ ] **TypeScript**: typed JavaScript for safer, larger projects · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
+- [ ] **JavaScript (ES6+)**: logic, DOM manipulation, async code · [Docs](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/JavaScript/docs.md) · [Cheat Sheet](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/JavaScript/cheat-sheet.md) · [Notes](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/JavaScript/notes.md)
+- [ ] **TypeScript**: typed JavaScript for safer, larger projects · [Docs](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/TypeScript/docs.md) · [Cheat Sheet](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/TypeScript/cheat-sheet.md) · [Notes](https://github.com/PrashUpdates/techstack-handbook/blob/main/Frontend/Core/TypeScript/notes.md)
 
 **Frameworks & Libraries**
 - [ ] **React.js**: component-based UIs · [Docs](#) · [Cheat Sheet](#) · [Notes](#)
