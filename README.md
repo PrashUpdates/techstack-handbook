@@ -36,8 +36,7 @@
 | 2 | [![Backend](https://img.shields.io/badge/Backend-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#backend) | Languages, frameworks, APIs, authentication |
 | 3 | [![Databases](https://img.shields.io/badge/Databases-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](#databases) | SQL, NoSQL, caching, ORMs |
 | 4 | [![DevOps & Cloud](https://img.shields.io/badge/DevOps%20%26%20Cloud-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#devops) | Git, Docker, CI/CD, hosting, cloud |
-| 5 | [![Roadmap](https://img.shields.io/badge/Roadmap-6E7681?style=for-the-badge)](#roadmap) | What's coming next |
-| 6 | [![Contributing](https://img.shields.io/badge/Contributing-3FB950?style=for-the-badge)](#contributing) | How to suggest changes |
+| 5 | [![Contributing](https://img.shields.io/badge/Contributing-3FB950?style=for-the-badge)](#contributing) | How to suggest changes |
 
 ---
 
@@ -274,20 +273,6 @@ Version control, containers, deployment and the platforms that run your code.
 | Docker Getting Started | [Add link](#) |
 | GitHub Actions Docs | [Add link](#) |
 | Cloud Provider Docs | [Add link](#) |
-
----
-
-<a id="roadmap"></a>
-
-## 🗺️ Roadmap
-
-- [x] HTML5
-- [x] CSS3
-- [ ] JavaScript and TypeScript
-- [ ] React, Vue and Next.js
-- [ ] Backend
-- [ ] Databases
-- [ ] DevOps and Cloud
 
 ---
 
